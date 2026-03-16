@@ -11,7 +11,7 @@ jobs:
         run: echo "Hello hutech"
 
       - name: Bước 2 - Tải code
-        uses: action/checkout@v6
+        uses: action/checkout@v4
 
       - name: Bước 3 - Đọc file
         run: cat README.md
