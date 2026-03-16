@@ -1,7 +1,7 @@
 name: Thử nghiệm đọc flie README
 on:
   push:
-    branches: ["main"] 
+    branches: [ "main" ] 
 jobs:
   thuc_hanh_doc_file:
     runs-on: ubuntu-latest
